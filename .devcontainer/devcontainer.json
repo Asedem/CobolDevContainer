@@ -1,0 +1,30 @@
+{
+  "name": "Open Source COBOL Development",
+  "image": "opensourcecobol/opensource-cobol:latest",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-vscode.cpptools",
+    "broadcomMFD.cobol-language-support",
+    "broadcomMFD.ccf",
+    "broadcomMFD.cobol-language-support-for-idms"
+  ],
+  "postCreateCommand": "echo 'Dev container ready for Open Source COBOL development!'",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  ],
+  "workspaceFolder": "/workspace",
+  "remoteUser": "root",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.associations": {
+          "*.cbl": "cobol",
+          "*.cob": "cobol"
+        }
+      }
+    }
+  }
+}
