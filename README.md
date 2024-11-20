@@ -1,6 +1,6 @@
 # CobolDevContainer
 
-A Dev Container Template to use COBOl with VSCode
+A Dev Container Template to use COBOL with VSCode
 
 ## Run the template code
 
