@@ -1,6 +1,12 @@
 # CobolDevContainer
 
-A Dev Container Template to use COBOL with VSCode
+A Dev Container Template to use COBOL within VSCode
+
+## Start the Container
+
+1. Install the DevContainer VSCode Extension
+2. Open the project directory with VSCode
+3. If asked, click "Reopen in Container"
 
 ## Run the template code
 
